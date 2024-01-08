@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    width: 950px ;
+    height: 600px;
+    border: 5px solid black;
+    background-color: skyblue;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+    animation: container 8s linear none infinite;
+}
+@keyframes container{
+    0%{
+        background-color: skyblue;
+    }
+    100%{
+        background-color: orangered;
+        
+    }
+}
+.a1{
+    display: flex;
+    width: 150px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    animation: tower2 8s linear none infinite;
+}
+@keyframes tower2{
+    0%{
+        top: 250px;
+        left: 400px;
+
+    }
+    100%{
+        top: 250px;
+        /* left: 390px; */
+        transform: translatex(-500px);
+    }
+}
+.a2{
+    display: flex;
+    width: 150px;
+    position: absolute;
+    top: 254px;
+    left: 570px;
+    animation: tower3 8s linear none infinite;
+}
+
+@keyframes tower3{
+    0%{
+        top: 254px;
+        left: 570px;
+
+    }
+    100%{
+        top: 254px;
+        /* left: 560px; */
+        transform: translatex(-500px);
+    }
+}
+
+.a3{
+    display: flex;
+    width: 150px;
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    animation: tower 8s linear none infinite;
+}
+@keyframes tower{
+    0%{
+        top: 250px;
+        left: 10px;
+
+    }
+    100%{
+        top: 250px;
+        /* left: -10px; */
+        transform: translatex(-500px);
+    }
+    
+}
+.a4{
+    display: flex;
+    width: 150px;
+    position: absolute;
+    top: 256px;
+    left: 750px;
+    overflow: hidden;
+    animation: tower4 8s linear none infinite ;
+}
+@keyframes tower4{
+    0%{
+        top: 256px;
+        left: 750px;
+
+    }
+    100%{
+        top: 256px;
+        /* left: 740px; */
+        transform: translatex(-500px);
+    }
+}
+.a5{
+    display: flex;
+    width: 80px;
+    position: absolute;
+    top: 40px;
+    left: 750px; 
+    overflow: hidden;
+    animation: sun 8s linear none infinite;
+}
+@keyframes sun{
+    0%{
+        top: 40px;
+        left: 750px;
+
+    }
+    100%{
+        top: 180px;
+        left: 750px;
+        /* transform: translatex(-800px); */
+    }
+}
+.a6{
+    display: flex;
+    width: 150px;
+    position: absolute;
+    top: 299px;
+    left: 0px;
+    animation: plane 8s linear none infinite ;
+    
+    
+}
+ /*@keyframes plane{
+    0%{
+        top: 300px;
+        left: 0px;
+
+    }
+    50%{
+        top: 150px;
+        left: 475px;
+        transform: ;
+    }
+    100%{
+        top: 0px;
+        left: 950px;
+    }
+
+ } */
+ @keyframes plane{
+    0%{
+        top: 302px;
+        left: -100px;
+        transform: rotate(5deg);
+    }
+    33.3%{
+        top: 300px;
+        left: 275px;
+        transform: rotate(-5deg);
+    }
+    66.6%{
+        top: 200px;
+        left: 675px; 
+        transform: rotate(-10deg);
+    }
+    100%{
+        top: 110px;
+        left: 1100px;
+    }
+
+ }
+.runway{
+    width: 950px;
+    height: 200px;
+    background-color: rgb(75, 74, 74);
+    display: flex;
+    border-top: 5px solid black;
+    position: absolute;
+    overflow: hidden;
+    
+}

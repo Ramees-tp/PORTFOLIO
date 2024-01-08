@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+.topbox{
+    width: 100%;
+    height: 29px;
+    background-color: rgb(73, 21, 78);
+    position: relative;
+    color: white;
+}
+.bar{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+}
+.backarrow{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    left: 143px;
+}
+.frontarrow{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    left: 173px;
+}
+.clock{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    left: 210px;
+}
+.searchbar{
+    position: absolute;
+    top: 5px;
+    left: 270px;
+    width: 440px;
+    background-color: rgb(202, 197, 197);
+    padding-left: 12px;
+}
+.baro{
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    top: 6px;
+    right: 395px;
+    color: rgb(0, 0, 0);
+}
+.searchicon{
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    top: 6px;
+    right: 372px;
+    color: rgb(0, 0, 0);
+}
+.qmark{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    right: 150px;
+    color: white;
+}
+.profile{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    right: 110px;
+    color: white;
+}
+.minimus{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    right: 80px;
+    color: white;
+}
+.box{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    right: 45px;
+    color: white;
+}
+.cross{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: white;
+}
+
+.box2{
+    width: 215px;
+    height: 50px;
+    border: 1px solid black;
+    position: absolute;
+    top: 30px;
+    background-color: rgb(73, 21, 78);
+    color: white;
+}
+.h1{
+    position: absolute;
+    left: 12px;
+    top: 15px;
+}
+.adown{
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    left: 100px;
+    top: 19px;
+}
+.bookpen{
+    width: 32px;
+    height: 38px;
+    position: absolute;
+    left: 150px;
+    top: 8px;
+}
+.box3{
+    width: 215px;
+    height:165px;
+    border: 1px solid black;
+    position: absolute;
+    top: 82px;
+    background-color: rgb(73, 21, 78);
+    color: rgb(189, 183, 183);
+}
+.at{
+    width: 20px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.mentions{
+    position: absolute;
+    top: 12px;
+    left: 52px;
+
+}
+.canvas{
+    width: 20px;
+    position: absolute;
+    top: 40px;
+    left: 12px;
+
+}
+.h2{
+     width: 20px;
+    position: absolute;
+    top: 40px;
+    left: 52px;
+}
+.bilding{
+    width: 20px;
+    position: absolute;
+    top: 75px;
+    left: 12px;
+}
+.h3{
+    width: 20px;
+    position: absolute;
+    top: 75px;
+    left: 52px; 
+}
+.files{
+    width: 20px;
+    position: absolute;
+    top: 105px;
+    left: 12px; 
+}
+.h4{
+    width: 25px;
+    position: absolute;
+    top: 105px;
+    left: 52px; 
+}
+.dot3{
+    width: 20px;
+    position: absolute;
+    top: 135px;
+    left: 12px; 
+}
+.h5{
+    width: 25px;
+    position: absolute;
+    top: 135px;
+    left: 52px;  
+}
+
+.box4{
+    width: 215px;
+    height:280px;
+    border: 1px solid black;
+    position: absolute;
+    top: 250px;
+    background-color: rgb(73, 21, 78);
+    color: rgb(189, 183, 183);
+}
+.down{
+    width: 18px;
+    position: absolute;
+    top: 15px;
+    left: 12px; 
+}
+.h6{
+    width: 21px;
+    position: absolute;
+    top: 15px;
+    left: 52px;  
+}
+.hash{
+    width: 15px;
+    position: absolute;
+    top: 40px;
+    left: 12px; 
+}
+.h7{
+    width: 20px;
+    position: absolute;
+    top: 38px;
+    left: 52px;  
+}
+.lock{
+    width: 16px;
+    position: absolute;
+    top: 70px;
+    left: 12px; 
+}
+.h8{
+    width: 25px;
+    position: absolute;
+    top: 68px;
+    left: 52px; 
+}
+.hash1{
+    width: 16px;
+    position: absolute;
+    top: 100px;
+    left: 12px; 
+}
+.h9{
+    width: 25px;
+    position: absolute;
+    top: 95px;
+    left: 52px; 
+}
+.plus{
+    width: 18px;
+    position: absolute;
+    top: 128px;
+    left: 12px;
+    background-color: rgb(71, 31, 109); 
+    border-radius: 3px;
+}
+.h10{
+    width: 25px;
+    position: absolute;
+    top: 128px;
+    left: 52px; 
+}
+.message{
+    width: 20px;
+    position: absolute;
+    top: 172px;
+    left: 12px;
+   
+}
+.h11{
+    width: 25px;
+    position: absolute;
+    top: 172px;
+    left: 52px; 
+}
+.pro{
+    width: 20px;
+    position: absolute;
+    top: 202px;
+    left: 12px;
+}
+.h12{
+    width: 25px;
+    position: absolute;
+    top: 202px;
+    left: 52px; 
+}
+
+
+.box5{
+    /* display: flex; */
+    position: absolute;
+    width: 870px;
+    height: 50px;
+    border: 2px solid black;
+    left: 220px;
+    top: 30px;
+    border-left: none;
+    border-right: none;
+}
+.rtp{
+    width: 40px;
+    position: absolute;
+    top: 6px;
+    left: 12px;
+}
+.h13{
+   
+    position: absolute;
+    top: 15px;
+    left: 75px; 
+    font-size: 18px;
+}
+.bdown{
+    width: 14px;
+    position: absolute;
+    top: 20px;
+    left: 222px;
+}
+.add{
+    width: 34px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.box6{
+    position: absolute;
+    width: 750px;
+    height: 110px;
+    border: 1px solid black;
+    left: 240px;
+    top: 400px;
+    border-radius: 6px;
+  
+}
+.h14{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+.h15{
+    position: absolute;
+    left: 39px;
+    top: 8px;
+}
+.hop{
+    width: 25px;
+    position: absolute;
+    top: 5px;
+    left: 62px;
+}
+.h16{
+    position: absolute;
+    left: 100px;
+    top: 2px;
+}
+.pin{
+    width: 22px;
+    position: absolute;
+    top: 6px;
+    left: 120px;
+}
+.h17{
+    position: absolute;
+    left: 160px;
+    top: 2px;
+}
+.dotlist{
+    width: 22px;
+    position: absolute;
+    top: 6px;
+    left: 180px;
+}
+.list1{
+    width: 22px;
+    position: absolute;
+    top: 6px;
+    left: 215px;
+}
+.h18{
+    position: absolute;
+    left: 250px;
+    top: 2px;
+}
+.arrowtop{
+    width: 22px;
+    position: absolute;
+    top: 6px;
+    left: 265px;
+}
+.place{
+    position: absolute;
+    top: 40px;
+    width: 652px;
+    left: 12px;
+    height: 28px;
+    border: 1px;
+    background-color: rgb(185, 180, 173);
+    border-radius: 3px;
+}
+.h19{
+    position: absolute;
+    left: 10px;
+    top: 72px; 
+}
+.h20{
+    position: absolute;
+    left: 35px;
+    top: 74px; 
+}
+.imoji{
+    position: absolute;
+    left: 68px;
+    top: 74px; 
+    width: 20px;
+}
+.h21{
+    position: absolute;
+    left: 99px;
+    top: 72px; 
+}
+.h22{
+    position: absolute;
+    left: 128px;
+    top: 72px; 
+}
+.camera{
+    position: absolute;
+    left: 148px;
+    top: 74px; 
+    width: 20px;
+}
+.mike{
+    position: absolute;
+    left: 178px;
+    top: 74px; 
+    width: 20px;
+}
+.h23{
+    position: absolute;
+    left: 208px;
+    top: 72px; 
+}
+.hai{
+    position: absolute;
+    left: 228px;
+    top: 72px; 
+    width: 20px; 
+}
+.send{
+    position: absolute;
+    right: 35px;
+    top: 72px; 
+    width: 20px; 
+}
+.h24{
+    position: absolute;
+    right: 12px;
+    top: 69px; 
+    width: 20px; 
+}
+.last{
+    position: absolute;
+    right: 10px;
+    top: 75px; 
+    width: 15px; 
+}
